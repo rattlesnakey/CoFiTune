@@ -1,13 +1,13 @@
-# Balancing Speciality and Generality: A Coarse to Fine Framework for Supervised Fine-tuning Large Language Model
-This is the code repository of "Balancing Speciality and Generality: A Coarse to Fine Framework for Supervised Fine-tuning Large Language Model"
+# Balancing Speciality and Versatility: A Coarse to Fine Framework for Supervised Fine-tuning Large Language Model
+This is the code repository of "Balancing Speciality and Versatility: A Coarse to Fine Framework for Supervised Fine-tuning Large Language Model"
 
 
 # 🚀 Introduction
 
-To enhance the speciality through supervised fine-tuning, while preserving its generality, we propose a coarse to fine framework called *CoFiTune*.
-The *CoFiTune* train specific modules within a defined layer range at the coarse level and utilizes a fine-grained soft-masking mechanism to further prevent CF in generality without harming the speciality.
+To enhance the speciality through supervised fine-tuning, while preserving its versatility, we propose a coarse to fine framework called *CoFiTune*.
+The *CoFiTune* train specific modules within a defined layer range at the coarse level and utilizes a fine-grained soft-masking mechanism to further prevent CF in versatility without harming the speciality.
 
-<img src="./image/CoFiTune-framework-overview.jpg" width="700" >
+<img src="./img/CoFiTune-framework-overview.jpg" width="700" >
 
 ## 📄 Get Started
 
