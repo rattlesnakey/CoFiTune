@@ -5,7 +5,7 @@ This is the code repository of "Balancing Speciality and Versatility: A Coarse t
 # 🚀 Introduction
 
 To enhance the speciality through supervised fine-tuning, while preserving its versatility, we propose a coarse to fine framework called *CoFiTune*.
-The *CoFiTune* train specific modules within a defined layer range at the coarse level and utilizes a fine-grained soft-masking mechanism to further prevent CF in versatility without harming the speciality.
+The *CoFiTune* train specific modules within a defined layer range at the coarse-grained level and utilizes a fine-grained soft-masking mechanism to further prevent CF in versatility without harming the speciality.
 
 <img src="./img/CoFiTune-framework-overview.jpg" width="700" >
 
@@ -34,7 +34,7 @@ ninja==1.11.1
 
 ## 📥 Data
 - Math dataset can be collected from [MathOctopus](https://github.com/microsoft/MathOctopus/tree/main), the extracted Chinese version can be found in `data/math` directory 
-- Finance dataset can be collected from [FiQA](https://huggingface.co/datasets/FinGPT/fingpt-fiqa_qa), the sample data constructed by us can be found in `data/finance` directory
+- Finance dataset can be collected from [FiQA](https://huggingface.co/datasets/FinGPT/fingpt-fiqa_qa)
 - CAG dataset can be collected from [Dureader-2.0](https://github.com/baidu/DuReader/tree/master/DuReader-2.0)
 - Law dataset can be collected from [lawyer-llama](https://github.com/AndrewZhe/lawyer-llama)
 
