@@ -33,7 +33,7 @@ ninja==1.11.1
 - Following the instructions from [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki/%E6%89%8B%E5%8A%A8%E6%A8%A1%E5%9E%8B%E5%90%88%E5%B9%B6%E4%B8%8E%E8%BD%AC%E6%8D%A2) to download the LLMs.
 
 ## 📥 Data
-- Math dataset can be collected from [MathOctopus](https://github.com/microsoft/MathOctopus/tree/main), the extracted Chinese version can be found in `data/math` directory 
+- Math dataset can be collected from [MathOctopus](https://github.com/microsoft/MathOctopus/tree/main) 
 - Finance dataset can be collected from [FiQA](https://huggingface.co/datasets/FinGPT/fingpt-fiqa_qa)
 - CAG dataset can be collected from [Dureader-2.0](https://github.com/baidu/DuReader/tree/master/DuReader-2.0)
 - Law dataset can be collected from [lawyer-llama](https://github.com/AndrewZhe/lawyer-llama)
