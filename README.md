@@ -1,5 +1,5 @@
 # Balancing Speciality and Versatility: A Coarse to Fine Framework for Supervised Fine-tuning Large Language Model
-This is the code repository of "Balancing Speciality and Versatility: A Coarse to Fine Framework for Supervised Fine-tuning Large Language Model"
+This is the code repository of the paper published at ACL 2024 Findings: "Balancing Speciality and Versatility: A Coarse to Fine Framework for Supervised Fine-tuning Large Language Model"
 
 
 # 🚀 Introduction
@@ -9,7 +9,7 @@ The *CoFiTune* train specific modules within a defined layer range at the coarse
 
 <img src="./img/CoFiTune-framework-overview.jpg" width="700" >
 
-## 📄 Get Started
+# 📄 Get Started
 
 ## 📝 Setup
 
@@ -112,3 +112,14 @@ APPLY_SOFTMASK=input_projection,output_projection
 - training will exclusively occur in the coarse level manner. However, if you set `TRAIN_WITH_SOFTMASK` to True and designate specific modules in `APPLY_SOFTMASK` where fine-grained soft-masking should be applied, the model will utilize fine-grained SoftMask in those specified modules.
 - Before training, you need to change the prompt template of your own LLM in `src/training.py`
 
+
+# 🧑‍🏫 Citation
+- If you find our work beneficial and it has been of any assistance to you, we would greatly appreciate it if you could kindly cite it:
+```
+@article{zhang2024balancing,
+  title={Balancing speciality and versatility: a coarse to fine framework for supervised fine-tuning large language model},
+  author={Zhang, Hengyuan and Wu, Yanru and Li, Dawei and Yang, Sak and Zhao, Rui and Jiang, Yong and Tan, Fei},
+  journal={arXiv preprint arXiv:2404.10306},
+  year={2024}
+}
+```
